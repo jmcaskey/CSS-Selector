@@ -1,4 +1,4 @@
-package com.hellokoding.auth.model;
+package com.jmcaskey.auth.model;
 
 import javax.persistence.*;
 

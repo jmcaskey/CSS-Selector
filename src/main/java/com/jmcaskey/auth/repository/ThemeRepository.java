@@ -1,12 +1,12 @@
-package com.hellokoding.auth.repository;
-
-import com.hellokoding.auth.model.Theme;
+package com.jmcaskey.auth.repository;
 
 import javax.transaction.Transactional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
+
+import com.jmcaskey.auth.model.Theme;
 
 public interface ThemeRepository extends JpaRepository<Theme, Long> {
     Theme findByUsername(String username);

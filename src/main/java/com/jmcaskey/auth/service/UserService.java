@@ -1,7 +1,7 @@
-package com.hellokoding.auth.service;
+package com.jmcaskey.auth.service;
 
-import com.hellokoding.auth.model.Theme;
-import com.hellokoding.auth.model.User;
+import com.jmcaskey.auth.model.Theme;
+import com.jmcaskey.auth.model.User;
 
 public interface UserService {
     void save(User user);

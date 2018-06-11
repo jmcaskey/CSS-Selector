@@ -1,10 +1,10 @@
-package com.hellokoding.auth.web;
+package com.jmcaskey.auth.web;
 
-import com.hellokoding.auth.model.Theme;
-import com.hellokoding.auth.model.User;
-import com.hellokoding.auth.service.SecurityService;
-import com.hellokoding.auth.service.UserService;
-import com.hellokoding.auth.validator.UserValidator;
+import com.jmcaskey.auth.model.Theme;
+import com.jmcaskey.auth.model.User;
+import com.jmcaskey.auth.service.SecurityService;
+import com.jmcaskey.auth.service.UserService;
+import com.jmcaskey.auth.validator.UserValidator;
 
 import java.security.Principal;
 
